@@ -1,7 +1,42 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+   font-family: Roboto, sans-serif;
 }
 
-img {
-    max-width: 20%;
+header {
+    background-color: #163638;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    max-width: 8%;
+}
+
+.container p {
+    padding: 0;
+    margin: 0;
+    color: rgba(222, 223, 194, 0.308);
+}
+
+
+.right-section{
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    color: rgb(189, 187, 187);
+}
+.links {
+    margin-right: 20px;
 }
