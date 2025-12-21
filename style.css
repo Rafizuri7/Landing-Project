@@ -103,9 +103,12 @@ div.info img {
     font-style: italic;
 }
 
+.info {
+    border: 5px groove rgba(15, 146, 221, 0.801);
+}
 
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 22px;
 }
