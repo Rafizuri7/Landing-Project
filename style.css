@@ -151,7 +151,7 @@ h2 {
   max-width: 800px;
   margin: auto;
   padding: 10px;
-  height: 15vh;
+   height: 10vh;
 }
 
 .text-content {
@@ -187,4 +187,18 @@ div.following p {
     margin-left: 50px;
     background-color: #3882f6;
     color: red;
+}
+
+.footer {
+    background-color: #000000c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer p {
+    color: antiquewhite;
+    padding-bottom: 40px;
+    padding-right: 10px;
 }
